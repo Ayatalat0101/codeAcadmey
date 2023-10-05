@@ -1,0 +1,383 @@
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --blue: #051856;
+  --gray: #929496;
+  --whiteGray: #E1E3E6;
+  --brawn: #E7991A;
+  --white: white
+}
+
+.footer {
+  width: 100%;
+  height: 3rem;
+  background-color: var(--blue);
+  color: var(--white);
+  text-align: center;
+  padding-top: 1%;
+
+}
+
+.sectitlecard,
+.titcard {
+  text-align: center;
+  color: var(--gray);
+}
+
+.titcard {
+  color: var(--blue);
+}
+
+.card {
+  width: 20vw;
+  height: 60vh;
+}
+
+.imgcontener {
+  width: 100%;
+  height: 78%;
+  overflow: hidden;
+}
+
+.descard {
+  margin: 1%;
+  width: 98%;
+  height: 18%;
+}
+
+.imgcard {
+  object-fit: cover;
+  width: 98%;
+  height: 98%;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Gallary {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+
+}
+
+.GallaryBtn {
+  padding: 1%;
+  font-size: 16px;
+  color: var(--blue);
+  border: 0;
+
+}
+
+.OurServices {
+  padding: 2%;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--whiteGray);
+}
+
+.ServicesTitle {
+  color: var(--blue);
+}
+
+.firstsectionServies {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+}
+
+.secondsectionServies {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.cardService {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3%;
+  width: 80%;
+  height: 100%;
+}
+
+.cardser {
+  padding: 1%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 20vw;
+  height: 20vh;
+  background-color: var(--blue);
+  color: var(--brawn);
+}
+
+.cardser>p,
+.cardser>a {
+  color: var(--gray);
+}
+
+.cardser>a {
+  color: var(--white);
+  padding: 1%;
+}
+
+.futuer {
+  width: 90vw;
+  height: 80vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conimgFuter {
+  width: 80%;
+  height: auto;
+}
+
+.futerimg {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.f_tit {
+  padding: 1%;
+  text-align: start;
+}
+
+.experincde {
+  margin: 3%;
+  display: flex;
+  gap: 3%
+}
+
+.yearExp {
+  background-color: var(--whiteGray);
+}
+
+.numyears {
+  font-size: 90px;
+  color: var(--brawn);
+}
+
+.yearExp>p {
+  padding: 2%;
+  text-align: center;
+}
+
+.professional {
+  width: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(./imphoto3.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+}
+
+header {
+  width: 100%;
+}
+
+nav {
+  width: 80vw;
+  height: 5rem;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.Fnav,
+.mail {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Fnav {
+  flex-wrap: wrap;
+}
+
+.mail {
+  width: 20vw;
+}
+
+navBar,
+navBar>ul {
+  width: 80%;
+  height: 10vh;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: var(--blue);
+}
+
+navBar {
+  margin-left: 10vw;
+  background-color: var(--brawn);
+  position: relative;
+  top:5vh;
+}
+.seProf{
+  width:80vw ;
+  margin-left: 10vw;
+}
+.p_prof{
+  padding:1%;
+  width: 30vw;
+  background-color: rgba(250, 247, 247, 0.5);
+  color: var(--white);
+}
+.h_prof{
+  padding:1%;
+  font-size: large;
+  color: var(--white);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.progBtn{
+  margin: 1%;
+  padding:1%;
+  color: var(--blue);
+  background-color: var(--brawn);
+}
+.btnnav{
+  margin: 5px;
+  padding: 5px;
+  background-color: var(--blue);
+  color: var(--white);
+}
+.selection>select{
+  border: 0;
+  background-color: var(--brawn);
+}
+select>option{
+  background-color: var(--white);
+  color: var(--blue);
+  border: 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 80vw;
+    height: auto;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+  }
+
+  .Gallary {
+    height: auto;
+  }
+
+  .cardService {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .firstsectionServies,
+  .secondsectionServies {
+    width: 100%;
+    height: auto;
+  }
+
+  .secondsectionServies {
+    width: 90%;
+    height: auto;
+  }
+
+  .cardser {
+    width: 80%;
+    height: 80%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+  }
+
+  .OurServices {
+    height: auto;
+
+  }
+
+  .futuer {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .conimgFuter {
+    width: 100%;
+
+  }
+
+  .numyears {
+    font-size: 60px;
+  }
+
+  nav,
+  .Fnav,
+  .mail {
+    height: auto;
+  }
+
+  .mail {
+    width: 80vw;
+  }
+
+  navBar {
+    flex-direction: column;
+    height: auto;
+    margin-left: 10vw;
+  }
+  navBar>ul{
+    width: 80%;
+    padding:20px;
+    height: auto;
+    flex-direction: column;
+  }
+  .sListNav{
+    width: 100%;
+    padding:10px;
+    text-align: center;
+  }
+  .p_prof{
+    padding:1%;
+    width: 80vw;
+  
+  }
+}
